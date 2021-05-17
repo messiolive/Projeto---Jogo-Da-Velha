@@ -2,11 +2,11 @@ let jogador = "";
 let pontuacao = {};
 
 function iniciarJogo() {
-    jogador = "X";
+    jogador = "♛";
     document.querySelector("#jogadorDoTurno").textContent = jogador;
 
     pontuacao = {
-        X : {
+        '♛' : {
             linha1 : 0,
             linha2 : 0,
             linha3 : 0,
@@ -16,7 +16,7 @@ function iniciarJogo() {
             diagonal1: 0,
             diagonal2: 0
         },
-        O : {
+        '♚' : {
             linha1 : 0,
             linha2 : 0,
             linha3 : 0,
@@ -54,10 +54,10 @@ function marcarCampo(){
 }
 
 function trocarJogador(){
-    if(jogador == "X"){
-        jogador = "O";
+    if(jogador == "♛"){
+        jogador = "♚";
     }else{
-        jogador = "X";
+        jogador = "♛";
     }
 }
 
