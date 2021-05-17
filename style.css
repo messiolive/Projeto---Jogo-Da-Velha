@@ -3,14 +3,26 @@
     display: grid;  
     grid-template-columns: 120px 120px 120px;  
     grid-template-rows: 120px 120px 120px;
+   
 }
 
 #jogo div {
-    background-color: black;
+    background-color: #964b00;
     border: 3px solid white;
     font-size: 80px;
     color: #ffffff;
     border-radius: 10px 10px 10px 10px;
     padding-top: 10px;
     text-align: center;
+    
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em ; 
+    background-image: url('IMAG.jpg');
+     background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    
 }
